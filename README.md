@@ -1,0 +1,1 @@
+This repository demonstrates a subtle issue in TypeScript's type system related to type guards and the handling of `undefined` values when combined with nullish coalescing. The bug.ts file contains code that produces a type error when an undefined value is passed to a function. The bugSolution.ts file provides a solution that explicitly handles the `undefined` case. 
